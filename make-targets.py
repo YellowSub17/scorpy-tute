@@ -1,5 +1,4 @@
 
-
 import scorpy
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +14,7 @@ cif_path = f'{data_dir}/lysozyme-sf.cif'
 
 #open the algorithm handler
 a = scorpy.AlgoHandler(tag=tag, path=f'{data_dir}/algo')
-Make the target intensity files.
+#Make the target intensity files.
 a.make_targets(cif_path)
 
 #Plot the target intensites

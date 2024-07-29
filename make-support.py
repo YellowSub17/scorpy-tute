@@ -1,14 +1,5 @@
-
-
 import scorpy
-import numpy as np
 import matplotlib.pyplot as plt
-
-
-
-
-
-
 
 
 #directory where the tag will be saved
@@ -21,7 +12,7 @@ tag = 'lyso-test'
 a = scorpy.AlgoHandler(tag=tag, path=f'{data_dir}/algo')
 
 
-# a.make_support_from_target(verbose=99)
+a.make_support_from_target(verbose=99)
 
 
 sphv = scorpy.SphericalVol(path=a.sphv_supp_loose_path())
