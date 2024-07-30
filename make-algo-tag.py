@@ -8,14 +8,14 @@ data_dir = '/home/ec2-user/algo-tute/data'
 tag = 'lyso-test'
 
 #number of qbins in correlation fn.
-nq = 300
+nq = 150 #300
 #max and minimum q values for correlation and reciprocal space intensity fn.
-qmax = 1.5 #3.5
+qmax = 1.2 #3.5
 qmin = 0.0725
 #number of angular sampling bins in correlation fn.
-npsi = 360 #*32
+npsi = 180 #*32
 #determines sampling of reciprocal space intensity fn.
-nl = 250
+nl = 180
 #blqq harmonics are cropped to this value.
 lcrop=45
 #number of pixels around each bragg peak (radius of support).

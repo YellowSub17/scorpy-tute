@@ -19,7 +19,7 @@ sphv = scorpy.SphericalVol(path=a.sphv_supp_loose_path())
 
 
 fig, axes = plt.subplots(1,1, figsize=(8/2.54, 8/2.54), dpi=150)
-sphv.plot_slice(0, 290, fig=fig, axes=axes,
+sphv.plot_slice(0, -10, fig=fig, axes=axes,
                 title='Loose Support',ylabel='$\\theta$ [rad]', xlabel='$\\phi$ [rad]')
 plt.show()
 

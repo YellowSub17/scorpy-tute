@@ -18,10 +18,10 @@ a = scorpy.AlgoHandler(tag=tag, path=f'{data_dir}/algo')
 
 
 blqq = scorpy.BlqqVol(path=a.blqq_data_path())
-blqq.plot_q1q2()
+blqq.plot_q1q2(title='Blqq', ylabel='$q_1=q_2$[\u212b$^{-1}]', xlabel='L')
 
 corr = scorpy.CorrelationVol(path=a.corr_data_path())
-corr.plot_q1q2()
+corr.plot_q1q2(title='Corr', ylabel='$q_1=q_2$[\u212b$^{-1}]', xlabel='$\\Delta \\Psi$')
 plt.show()
 
 
