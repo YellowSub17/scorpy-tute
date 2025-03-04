@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #directory where the tag will be saved
-data_dir = '/home/ec2-user/algo-tute/data'
+data_dir = './data'
 #tag for a set of algorithms
 tag = 'lyso-test'
 
@@ -14,7 +14,7 @@ tag = 'lyso-test'
 a = scorpy.AlgoHandler(tag=tag, path=f'{data_dir}/algo')
 
 
-# a.make_data_from_target(verbose=99, save_corr=True, corr_nchunks=32)
+a.make_data_from_target(verbose=99, save_corr=True, corr_nchunks=32)
 
 
 blqq = scorpy.BlqqVol(path=a.blqq_data_path())

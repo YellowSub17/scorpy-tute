@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 #directory where the tag will be saved
-data_dir = '/home/ec2-user/algo-tute/data'
+data_dir = './data'
 #tag for a set of algorithms
 tag = 'lyso-test'
 
